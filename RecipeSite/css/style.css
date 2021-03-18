@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo__img {
+  width: 120px;
+  height: auto;
+}
+
+.row {
+  width: 80%;
+  height: 130px;
+  margin: auto;
+  /* border: 3px solid; */
+  padding: 20px;
+}
+
+.col1 {
+  width: 20%;
+  float: left;
+}
+
+.col2 {
+  width: 80%;
+  float: left;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.main__heading {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #05386B;
+  font-size: 60px;
+}
+
+.cake__img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.ingredients__heading, .method__heading {
+  margin: 15px 10%;
+  font-size: 35px;
+  color: #05386B;
+}
+
+.ingredients__list {
+  margin: 15px 4%;
+  list-style: none;
+  line-height: 25px;
+}
+
+.method__para {
+  margin: 30px 10%;
+  line-height: 25px;
+}
+
+ .ingredients__list__container {
+  margin: 5.5%;
+  width: 35%;
+  padding: 15px;
+  /* border: 2px solid; */
+}
+
+.method__para__container {
+  margin: 5.5%;
+  width: 35%;
+  padding: 15px;
+  /* border: 2px solid; */
+}
+
+/* COLOURS:
+Body text: #EDF5E1
+Headings: #05386B
+Background Colour: #5CDB95
+ */

@@ -1,0 +1,72 @@
+/* css reset to undo user agent styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h1 {
+  background: blue;
+}
+
+h2 {
+  background: red;
+  color: yellow;
+}
+
+h3 {
+  background: PapayaWhip;
+  color: PowderBlue;
+}
+
+h4 {
+  background: SeaGreen;
+  color: Silver;
+}
+
+h5 {
+  background: SaddleBrown;
+  color: Salmon;
+}
+
+h6 {
+  background: SlateBlue;
+  color: PowderBlue;
+}
+
+p {
+  background: white;
+  color: black;
+} */
+
+/*
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+  background: black;
+  color: lime;
+}
+
+main {
+  font-size: 25px;
+}
+
+.home__heading--intro {
+  text-align: center;
+  margin: 50px auto 25px;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.home__para--intro {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.home__list--intro {
+  margin: 20px 25%;
+  font-family: 'DotGothic16', sans-serif;
+}
